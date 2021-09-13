@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website Practise</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="#"><img src="./eduford_img/logo.png" alt="logo Imagge"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+             </div>
+             <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2021</h1>
+    </section>
+<!-- Blog Page COtent -->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="./eduford_img/certificate.jpg" alt="">
+            <h2>Our Certificate & Online Programs For 2021</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam velit hic ex quidem unde nam asperiores quia eligendi aliquam labore aperiam, perferendis accusantium animi eveniet tenetur doloremque blanditiis? Ea voluptatum architecto dicta earum expedita. Eligendi expedita itaque corrupti nobis nisi.</p>
+            <br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla voluptates ex iusto excepturi, nisi eos debitis nemo at necessitatibus distinctio possimus ut placeat aspernatur animi vel beatae voluptatibus voluptate. Praesentium sit reiciendis ipsum numquam harum! Assumenda dicta molestiae debitis quibusdam. Dicta alias velit excepturi est nostrum praesentium ipsam, maiores dignissimos. Nihil dolorem, voluptas molestiae non harum dolore magni labore provident.</p>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat architecto explicabo veritatis vel sit reprehenderit, veniam maxime distinctio repellat eos animi? Aspernatur quidem labore eveniet iure, ducimus neque est magnam amet facere. Nisi praesentium alias optio molestias dolor quia voluptates iusto. Odit perferendis, necessitatibus ipsum in minima error tenetur repudiandae laudantium! Vitae atque, officiis tenetur praesentium quibusdam ea! Blanditiis repellendus ullam vitae ad omnis dolores deserunt autem dolore. Est amet magni distinctio laboriosam veritatis velit necessitatibus voluptatum suscipit ea inventore, pariatur aperiam alias consequatur temporibus eos nihil excepturi error qui aliquam itaque labore deserunt. Nam itaque odio necessitatibus cum nisi.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nam non sint voluptas, temporibus esse. Cum, voluptate temporibus aperiam magnam reprehenderit harum dolores molestias? Aspernatur quo consequuntur explicabo itaque repellendus.</p>
+
+
+            <div class="comment-box">
+                <h3>Leave a Comment</h3>
+
+                <form action="#" class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Catagories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>14</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>40</span>
+            </div>
+            <div>
+                <span>Autocad</span>
+                <span>52</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<Section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iusto amet molestias <br> libero officia illum. Corrupti culpa provident exercitationem rem.</p>
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+    </div>
+    <p>Made by APU D.</p>
+</Section>
+
+
+
+<!-- Javascript is here -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
